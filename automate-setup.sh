@@ -14,9 +14,9 @@ sudo chmod +x ./pre-requisite.sh
 sudo ./pre-requisite.sh 
 
 # Install zsh, nvm and aws
-ZSH_PATH=$(echo "/zsh")
-NVM_PATH=$(echo "/nvm")
-AWS_PATH=$(echo "/aws")
+ZSH_PATH=$(echo "./zsh")
+NVM_PATH=$(echo "./nvm")
+AWS_PATH=$(echo "./aws")
 
 sudo chmod +x $(echo $ZSH_PATH"/setup-zsh.sh") && . $(echo $ZSH_PATH"/setup-zsh.sh") && \
 sudo chmod +x $(echo $NVM_PATH"/setup-nvm.sh") && . $(echo $NVM_PATH"/setup-nvm.sh") && \

@@ -31,4 +31,4 @@ echo "####"
 nvm -v
 
 echo "Installing NodeJs..."
-nvm install lts
+nvm install --lts
